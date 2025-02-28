@@ -23,7 +23,7 @@ import pickle
 USERINFO = {}  # holds user information
 CAPTCHA_DATA = {}
 # %% ENV VARIABLES
-COIN_SYMBOL = os.environ["COIN_SYMBOL"]
+COIN_SYMBOL = "$"
 COIN_NAME = os.environ["COIN_NAME"]
 AIRDROP_AMOUNT = os.environ["AIRDROP_AMOUNT"]
 AIRDROP_AMOUNT = "{:,.2f}".format(float(AIRDROP_AMOUNT))
