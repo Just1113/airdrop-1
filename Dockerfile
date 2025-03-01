@@ -6,5 +6,6 @@ ENV CRYPTOGRAPHY_DONT_BUILD_RUST=1
 RUN pip3 install --upgrade pip
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
+RUN python install cryptography==3.1.1
 COPY . .
 CMD ["python3","bot.py"]
